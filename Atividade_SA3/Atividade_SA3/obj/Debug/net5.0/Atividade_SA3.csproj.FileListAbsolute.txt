@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.exe
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.deps.json
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.runtimeconfig.json
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.runtimeconfig.dev.json
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.dll
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\ref\Atividade_SA3.dll
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\bin\Debug\net5.0\Atividade_SA3.pdb
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.AssemblyInfo.cs
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.dll
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\ref\Atividade_SA3.dll
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.pdb
+C:\Users\victo\Desktop\Atividade_SA3\Atividade_SA3\obj\Debug\net5.0\Atividade_SA3.genruntimeconfig.cache
