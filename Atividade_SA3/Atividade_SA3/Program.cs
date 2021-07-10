@@ -185,6 +185,12 @@ namespace Atividade_SA3
 						break;
 					}
 
+					case 9 : //Sair do programa.
+					{
+						Console.WriteLine("\nSaindo do programa...\n");
+						break;
+					}
+
 					default : //Código não existe.
 					{
 						Console.WriteLine("\nCódigo não existe!\n");
@@ -195,19 +201,17 @@ namespace Atividade_SA3
 
 			} while(cod != 9);
 			
-
 			/*
 			//Cria uma nova agencia e uma nova conta corrente.
 			Agencia a1 = new ();
-			ContaCorrente c1 = new (a1.NumeroAgencia, "Victor", "12345678911");
+			ContaCorrente c1 = new (a1.NumeroAgencia, "Victor", "12345678911", TipoDeContas.Corrente);
 
 			//Escreve o número da agência.
 			Console.WriteLine($"Número da Agência: {a1.NumeroAgencia}");
 
 			//Adiciona uma conta corrente de cada forma possível.
-			a1.AdicionarContaCorrente(c1);								//Adicionar a conta direto.
 			a1.AdicionarContaCorrente("Lana", "12345678912");			//Nome e cpf, sem valor.
-			a1.AdicionarContaCorrente("Janaína", "12345678913", 1500f);	//Nome e cpf, com valor.
+			a1.AdicionarContaCorrente("Janaína", "12345678913", 1500M);	//Nome e cpf, com valor.
 			a1.AdicionarContaCorrente("Roberto", "12345678912");		//Tenta criar uma conta com um cpf já existente.
 
 			//Mostra todos os valores de todas as contas.
@@ -222,7 +226,7 @@ namespace Atividade_SA3
 			}
 
 			//Fecha a conta c1.
-			if(a1.FecharConta(c1))
+			if(a1.FecharConta(c1.CPF))
 			{
 				Console.WriteLine($"\nConta {c1.Nome} fechada com sucesso!");
 			} else
@@ -231,7 +235,7 @@ namespace Atividade_SA3
 			}
 
 			//Deposita R$4500 em uma conta.
-			if(a1.Contas[0].Depositar(4500f))
+			if(a1.Contas[0].Depositar(4500M))
 			{
 				Console.WriteLine($"\nDepositado R$4500 com sucesso na conta {a1.Contas[0].Nome}!");
 			} else
@@ -240,7 +244,7 @@ namespace Atividade_SA3
 			}
 
 			//Faz a transferência de R$15 da conta 0 para a conta 1.
-			if(a1.Contas[1].Depositar(15f, a1.Contas[0]))
+			if(a1.Contas[1].Depositar(15M, a1.Contas[0]))
 			{
 				Console.WriteLine($"\nTransferência de R$15 da conta {a1.Contas[0].Nome} para {a1.Contas[1].Nome} com sucesso!");
 			} else
@@ -260,7 +264,7 @@ namespace Atividade_SA3
 			}
 
 			//Tenta fazer uma transferência de R$10.000 da conta Lana para Janaína.
-			if(a1.Contas[1].Depositar(10000f, a1.Contas[0]))
+			if(a1.Contas[1].Depositar(10000M, a1.Contas[0]))
 			{
 				Console.WriteLine($"\nTransferência de R$15 da conta {a1.Contas[0].Nome} para {a1.Contas[1].Nome} com sucesso!");
 			} else
